@@ -1,0 +1,28 @@
+.template-selector {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .template-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 20px;
+  }
+  
+  .template-image {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: border-color 0.2s;
+  }
+  
+  .template-image.selected {
+    border-color: blue;
+  }
+  
+  .selected-template {
+    margin-top: 20px;
+  }
+  
